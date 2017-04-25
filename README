@@ -1,0 +1,48 @@
+Trip Sorter - Readme
+====================
+
+Summary
+-------
+
+This application is intended to sort a list of un-ordered boarding passes where
+the start and end point are not known for the whole trip and for each boarding 
+pass in the lowest possible order of complexity (Big O notation).
+
+
+REQUIREMENT
+-----------
+PHP version 5.6.
+PHPUnit 5.7.19 to run tests only 
+
+  
+INSTALLATION
+------------
+No special requirements, Copy the folder PropertyFinder to your /var/www/html 
+directory, and then you can run the application by accessing the URL 
+http://localhost/PropertyFinder/
+
+
+ASSUMPTIONS
+-----------
+
+1- During traveling you will not pass by your start and your end more than once, 
+for example If I am traveling from point A to D, my route will be A to B, B to C, 
+C to D, I will not pass through A and D more than once.
+2- You will also not pass by any point more than once
+3- No validation was made through the code, it is considered that the JSON will 
+be submitted correctly and holds the correct data.
+4- I would love to discuss this with you more even if it is not correct and I am 
+not considered as a candidate.
+
+
+
+DIRECTORY STRUCTURE
+-------------------
+Tests
+controllers
+models
+views
+
+
+
+
